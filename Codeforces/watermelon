@@ -1,0 +1,6 @@
+s=input()
+t=len(s)
+if s[0]==s[t-1]:
+  print('yes')
+else:
+  print('no')
