@@ -1,0 +1,9 @@
+a, b, c = map(int, (input().split()))
+if (a+b>c and b+c>a and c+a>b) : 
+   print('0')
+elif (a+b<=c) :
+     print(c-a-b+1)
+elif (a+c<=b) :
+       print(b-c-a+1)
+elif (b+c<=a) :
+         print(a-b-c+1)
