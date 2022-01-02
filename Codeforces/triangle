@@ -1,0 +1,12 @@
+a, b, c = map(int, (input().split()))
+if (a+b>c and b+c>a and c+a>b) : 
+   print('0')
+elif (a+b<=c) :
+     l, s1, s2=c, b, a
+     print(l-s1-s2+1)
+elif (a+c<=b) :
+       l, s1, s2=b, a, c
+       print(l-s1-s2+1)
+elif (b+c<=a) :
+         l, s1, s2 = a, c, b
+         print(l-s1-s2+1)
